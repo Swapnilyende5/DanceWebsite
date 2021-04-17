@@ -1,0 +1,66 @@
+//- index.pug
+doctype html
+html
+  head
+    title Ashu Dance Academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        ul 
+            div#logo
+              img(src="/static/images/logo.png")
+              | ADA
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class Info]
+            li #[a(href="/") Contact Us]
+            div#owner
+              p Ms. Ashlesha Yelure
+              p 8975796750
+              p ashleshayelure@gmail.com
+        
+    section#introSection 
+        div Welcome to Ashu's Dance Academy 
+        div.small Eat, Sleep, Dance, Repeat   
+
+    section#missionSection 
+        h2 Our Mission
+        div.card
+          h3 Dance Perfection
+          div.card-box
+            div.card-img 
+              img(src="/static/images/1.png")
+            div.card-content
+              p Sing like a superstar ...driving in ya car, sing to the beat ...tapping down your street, hum hum didi dum ..words dont know the means, but dance if ya wanna ..dance the night away
+        div.card
+          h3 Dance the way you like
+          div.card-box
+            div.card-img 
+              img(src="/static/images/1.png")
+            div.card-content
+              p Dance dance darling dandelion.Dance in the dancing field of the trillion.Dance while dahlia play drum.Dance while daffodil blow trum-like group of heavenly ghost.Dance in the breeze.
+        div.card
+          h3 Expert Teaching
+          div.card-box
+            div.card-img 
+              img(src="/static/images/1.png")
+            div.card-content
+              p Dance me to your beauty with a burning violin Dance me through the panic 'til I'm gathered safely in Lift me like an olive branch and be my homeward dove, Dance me to the end of love.
+
+    section#sponsersSection 
+        h2 Our Sponsers
+        div#sponsers
+          img(src="/static/sponsers/ama.png", alt="Sponser Image", class="spImage")
+          img(src="/static/sponsers/coca.png", alt="Sponser Image", class="spImage")
+          img(src="/static/sponsers/bmw.png", alt="Sponser Image", class="spImage")
+          img(src="/static/sponsers/hp.png", alt="Sponser Image", class="spImage")
+
+
+    section#footer 
+        | Copyright © 2020-2021 Ashu'sDanceAcademy.com | All rights reserved  
+
+
+    script
+      include ../static/index.js

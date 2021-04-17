@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru&family=Zilla+Slab+Highlight&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#logo{
+    display: flex;
+    text-align: center;
+    margin: 0px 14px;
+    color: white;
+    margin-top: 6px;
+    margin-right: 40px;
+    font-size: 19px;
+}
+#logo img{
+    height: 36px;
+    filter: invert(1);
+}
+#navbar{
+    background-color: rgb(41 30 30);
+    font-size: 18px;
+    padding: 17px 14px;
+    font-family: 'Carter One', cursive;
+
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{
+    text-decoration: none;
+    padding: 17px 23px;
+    color: white;
+}
+#navbar li a:hover{
+    color: rgb(238, 255, 0);
+}
+
+#owner{
+    color: white;
+    font-size: 13px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: inline-block;
+    position: absolute;
+    right: 30px;
+    text-align: right;
+}
+
+#introSection{
+    padding-bottom: 23px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lobster', cursive;
+    font-size: 47px;
+    color: white;
+    background: center / cover no-repeat url("/static/bg2.jpg");
+    height: 390px;
+    background-color: red;
+}
+#introSection div.small{
+    font-size: 34px;
+}
+
+#missionSection{
+    height: 300px;
+    background-color: rgb(33, 149, 196);
+}
+#missionSection h2{
+    text-align: center;
+    padding: 9px;
+    font-size: 30px;
+    font-family: 'Carter One', cursive;
+}
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    margin: 2px 22px;
+    border-radius: 11px;
+    width: 30%;
+    height: 209px;
+}
+.card h3{
+    text-align: center;
+    margin: 15px;
+    font-family: 'Zilla Slab Highlight', cursive;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    /* margin: 0px 0px;
+    padding: 0px 0px; */
+}
+.card-img img{
+    height: 100px;
+}
+.card-content{
+    margin: 17px;
+}
+.card-content p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#sponsersSection{
+    height: 300px;
+    background-color: yellow;
+}
+#sponsersSection h2{
+    text-align: center;
+    padding-top: 9px;
+    font-size: 30px;
+    font-family: 'Carter One', cursive;
+}
+#sponsers{
+    width: 840px;
+    margin: auto;
+}
+.spImage{
+    height: 210px;
+    width: 210px;
+    padding: 20px;
+
+}
+
+#footer{
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

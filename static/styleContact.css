@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru&family=Zilla+Slab+Highlight&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    margin: 20px 0;
+}
+
+.container{
+    min-height: 77vh;
+}
+.container h1{
+    color: tomato;
+    font-family: 'Zilla Slab Highlight', cursive;
+}
+
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.myInput{
+    width: 40%;
+    padding: 9px;
+    margin: 8px;
+    font-size: 13px;
+    border: 2px solid tomato;
+    border-radius: 5px;
+    outline: none;
+}
+
+.btn{
+    padding: 7px 22px;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: tomato;
+    color: white;
+    outline: none;
+    margin: 20px;
+    cursor: pointer;
+}
